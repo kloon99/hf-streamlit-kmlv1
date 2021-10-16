@@ -1,0 +1,29 @@
+altair>=3.2.0
+astor
+attrs
+base58
+blinker
+cachetools
+# Click 8.0 has a new incompatible API
+click>=7.0; python_version < '8.0'
+nltk
+numpy
+packaging
+pandas
+pillow
+# protobuf version 3.11 is incompatible, see https://github.com/streamlit/streamlit/issues/2234
+protobuf >=3.6.0;  python_version != '3.11'
+pyarrow 
+pydeck>=0.1.dev5
+python-dateutil
+requests
+scipy
+streamlit==1.0.0
+transformers
+toml
+torch
+# 5.0 has a fix for etag header: https://github.com/tornadoweb/tornado/issues/2262
+tornado>=5.0
+tzlocal
+validators
+gitpython!=3.1.19
